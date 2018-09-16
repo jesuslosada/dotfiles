@@ -3,3 +3,4 @@
 	email = dev@jesuslosada.com
 [core]
 	editor = vim
+	excludesfile = ~/.gitignore_global
