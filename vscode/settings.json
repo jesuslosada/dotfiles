@@ -6,6 +6,10 @@
     "files.trimTrailingWhitespace": true,
     "telemetry.telemetryLevel": "off",
     "[python]": {
-        "editor.formatOnSave": true
-    }
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "isort.args": ["--profile", "black"]
 }
