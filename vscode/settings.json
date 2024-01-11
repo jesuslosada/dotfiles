@@ -1,10 +1,11 @@
 {
-    "editor.renderIndentGuides": true,
+    "editor.guides.indentation": true,
     "editor.rulers": [
         79
-    ],    
+    ],
     "files.trimTrailingWhitespace": true,
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "python.linting.flake8Enabled": true
+    "telemetry.telemetryLevel": "off",
+    "[python]": {
+        "editor.formatOnSave": true
+    }
 }
